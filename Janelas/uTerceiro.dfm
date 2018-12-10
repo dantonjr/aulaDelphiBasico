@@ -1,0 +1,41 @@
+object frmTerceiro: TfrmTerceiro
+  Left = 0
+  Top = 0
+  Caption = 'Terceiro'
+  ClientHeight = 213
+  ClientWidth = 339
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblMensagem: TLabel
+    Left = 72
+    Top = 8
+    Width = 142
+    Height = 48
+    Caption = 'Terceiro'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object bbnFechar: TBitBtn
+    Left = 192
+    Top = 152
+    Width = 75
+    Height = 25
+    Caption = '&Fechar'
+    DoubleBuffered = True
+    Kind = bkClose
+    NumGlyphs = 2
+    ParentDoubleBuffered = False
+    TabOrder = 0
+  end
+end
